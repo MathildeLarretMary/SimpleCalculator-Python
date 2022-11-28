@@ -21,6 +21,9 @@ class Calc:
         calc = input(" ---> ")
         elements = []
         result = ""
+        
+        if calc == "":
+            return self.calculate()
         # separate all elements of input
         for char in calc:
             elements.append(char)

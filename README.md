@@ -20,15 +20,3 @@ then type
 
 
 Or got to : [Programiz](https://www.programiz.com/python-programming/online-compiler/) and Copy/Paste code from "main.py" to Programiz
-
-
-## Notes :
-
-the run method consist only of high level instruction, easily readable for a human to understand
-what happen.
-
-smaller functions means easier maintenance and modification.
-
-If you want to modify the prompt from "--->" to "ssss{=======>"
-
-it surely makes more sense to modify `_display_prompt` than `_calculate` 
